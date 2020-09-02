@@ -29,4 +29,14 @@ $ git remote add repo_nickname git://github.com/myfriend/the_repo
 $ git remote -v ``
 - Make changes to files.
 - git <sub>add</sub> and git <sub>commit</sub> those changes
-- 
+- git push them back to github. These will go to your version of the repository.
+- Note: if you get an error like:
+``error: src refspec master does not match any.
+error: failed to push some refs to 'git@github.com:username/the_repo' 
+``
+Then try git push origin HEAD:gh-pages (see stackoverflow.). Typing git show-ref can show what reference to put after HEAD.
+- Go to your version of the repository on github.
+- Click the “Pull Request” button at the top.
+- Note that your friend’s repository will be on the left and your repository will be on the right.
+- Click the green button “Create pull request”. Give a succinct and informative title, in the comment field give a short explanation of the changes and click the green button “Create pull request” again.
+
