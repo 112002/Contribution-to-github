@@ -8,8 +8,8 @@ Steps to contribute in anyone's repository
 - Type
 ````
 $ git clone git@github.com:username/the_repo
-`````
-       <br /> where username is your username.
+````
+       where username is your username.
 - You’ll now have a local copy of your version of that repository.
 - Change into that project directory (the_repo):
 ````
@@ -24,4 +24,9 @@ $ git remote add myfriend git://github.com/myfriend/the_repo
 ```
 $ git remote add repo_nickname git://github.com/myfriend/the_repo
 ```
+- To check this remote add set up:
+``
+$ git remote -v ``
+- Make changes to files.
+- git <sup>add</sup> and git commit those changes
 - 
