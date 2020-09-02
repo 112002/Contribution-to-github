@@ -88,3 +88,8 @@ You don’t have to use the github website for this.
 `` $ git pull myfriend master ``
 - Push them back to your github repository
 `` $ git push ``
+- The pull request on github will be automatically closed.
+
+
+
+<b><i> ALL THE BEST!! </b></i>
