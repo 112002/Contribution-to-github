@@ -48,3 +48,11 @@ This will pull down and merge all of the changes that your friend has made.
 
 Now push them back to your github repository.
 ``$ git push``
+
+# Handling pull requests
+Say your friend has suggested some changes to your code.
+
+Ask them to get a github account and follow the instructions above: fork your repository, make the changes, and submit a pull request.<br />
+
+Once they do that, you’ll get an email about it. How to handle it?
+<b>Using the github website:</b>
