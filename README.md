@@ -39,4 +39,12 @@ Then try git push origin HEAD:gh-pages (see stackoverflow.). Typing git show-ref
 - Click the “Pull Request” button at the top.
 - Note that your friend’s repository will be on the left and your repository will be on the right.
 - Click the green button “Create pull request”. Give a succinct and informative title, in the comment field give a short explanation of the changes and click the green button “Create pull request” again.
+# Pulling others’ changes
+Before you make further changes to the repository, you should check that your version is up to date relative to your friend’s version.
 
+Go into the directory for the project and type:
+``$ git pull myfriend master``
+This will pull down and merge all of the changes that your friend has made.
+
+Now push them back to your github repository.
+``$ git push``
