@@ -74,3 +74,17 @@ Once they do that, you’ll get an email about it. How to handle it?<br />
 
 - Open a terminal/shell, and type
 `` $ git pull``
+
+<b>Using the command line</b>
+You don’t have to use the github website for this.
+
+- Open a terminal/shell.<br />
+
+- Go into the directory for your project.<br />
+
+- Add a connection to your friend’s version of the github repository, if you haven’t already.
+`` $ git remote add myfriend git://github.com/myfriend/the_repo ``
+- Pull his/her changes.
+`` $ git pull myfriend master ``
+- Push them back to your github repository
+`` $ git push ``
