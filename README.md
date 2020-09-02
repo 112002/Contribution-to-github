@@ -9,3 +9,7 @@ Steps to contribute in anyone's repository
 ````
 $ git clone git@github.com:username/the_repo
 `````
+       <br /> where username is your username.
+- You’ll now have a local copy of your version of that repository.
+- Change into that project directory (the_repo):
+`````
