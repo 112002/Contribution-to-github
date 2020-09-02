@@ -28,5 +28,5 @@ $ git remote add repo_nickname git://github.com/myfriend/the_repo
 ``
 $ git remote -v ``
 - Make changes to files.
-- git <sup>add</sup> and git commit those changes
+- git <sub>add</sub> and git <sub>commit</sub> those changes
 - 
