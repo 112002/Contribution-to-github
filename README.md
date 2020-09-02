@@ -13,3 +13,4 @@ $ git clone git@github.com:username/the_repo
 - You’ll now have a local copy of your version of that repository.
 - Change into that project directory (the_repo):
 `````
+$ cd the_repo ````
