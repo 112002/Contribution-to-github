@@ -54,5 +54,23 @@ Say your friend has suggested some changes to your code.
 
 Ask them to get a github account and follow the instructions above: fork your repository, make the changes, and submit a pull request.<br />
 
-Once they do that, you’ll get an email about it. How to handle it?
+Once they do that, you’ll get an email about it. How to handle it?<br />
 <b>Using the github website:</b>
+- Go to your version of the repository.
+
+- Click on “Pull Requests” at the top.
+
+- Click on the particular request.
+
+- You’ll see their comments on the pull request, and can click to see the exact changes.
+
+- If you want them to make further changes before you merge the changes into your repository, add a comment.
+
+- If you hate the whole idea, just click the <b>“Close”</b> button.
+
+- If you want to merge the changes into your repository, click the <b>“Merge pull request”</b> button.
+
+- Your github repository will now be fixed, but you’ll want to get them into your local repository, too.
+
+- Open a terminal/shell, and type
+`` $ git pull``
